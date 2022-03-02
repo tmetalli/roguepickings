@@ -1,0 +1,114 @@
+/***** BASE STYLES *****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+a {
+    color: #77a466;
+    text-decoration: none;
+}
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.third-width {
+    width: 378px;
+    float: left;
+    height: 230px;
+}
+/***** HEADER SECTION *****/
+header {
+    padding-top: 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    float: left;
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    margin-top: 18px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 30px;
+}
+nav ul li a {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.banner {
+    height: 287px;
+    background: url('../img/hero-image.png') no-repeat center #77a466;
+    background-size: cover;
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+}
+
+/***** SECTIONS *****/
+section {
+    border-bottom: 1px solid #dedbdc;
+}
+section h2 {
+    font-size: 18px;
+    color: #77a466;
+    text-transform: uppercase;  
+}
+section h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 0 10px 0;
+}
+.welcome {
+    padding: 20px 0;
+}
+.reviews, .contact {
+    padding-left: 30px;
+    border-left: 1px solid #dedbdc;
+}
+.reviews p, .contact p {
+    width: 330px;
+    padding-bottom: 20px;
+}
+.contact p {
+    line-height: 26px;
+}
+.specials ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.specials ul a {
+    line-height: 35px;
+}
+
+/***** FOOTER SECTION *****/
+footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+} 
+
+footer h3 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
