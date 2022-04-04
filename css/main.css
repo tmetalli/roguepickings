@@ -154,3 +154,28 @@ footer h3 span {
     font-family: 'Galada', cursive;
     text-transform: lowercase;
 }
+
+/*---------- TABLETS ----------*/
+
+@media (min-width: 768px) {
+    .offers {
+        flex-flow: row;
+    }
+    .third-width {
+        width: 33%;
+        padding-left: 28px;
+        padding-right: 20px;
+
+    }
+    .reviews, .specials {
+        border-bottom: none;
+        border-right: 1px solid #dedbdc;
+
+    }
+
+}
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+
+}
