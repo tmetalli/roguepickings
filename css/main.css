@@ -177,5 +177,35 @@ footer h3 span {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+    header, nav {
+        display: flex!important;
+    }
+    header {
+        justify-content: space-between;
+        align-items:center;
+        /* border: 1px solid yellow; */
 
+    }
+    header h1 {
+        display: flex;
+        justify-content: flex-start;
+        width: 40%;
+        border-bottom: none;
+        /* border: 1px solid red; */
+    }
+    nav {
+        width: 60%;
+        /* border: 1px solid blue; */
+        justify-content: flex-end;
+        /* align-items:center; */
+
+    }
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul li {
+        padding: 0 10px;
+
+    }
 }
