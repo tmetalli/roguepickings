@@ -1,8 +1,11 @@
 /***** BASE STYLES *****/
+html {
+    font-size: 16px;
+}
 body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -21,7 +24,6 @@ a:hover {
 .container {
     display: flex;
     justify-content: center;
-    /* align-items: center;  */
     flex-flow: column;
     padding: 0 26px;
 }
@@ -34,7 +36,7 @@ header {
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 1.875em;
     display: flex;
     justify-content: center;
     border-bottom: 4px solid #77a466;
@@ -59,7 +61,7 @@ nav ul li {
 }
 nav ul li a {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.125em;
     text-transform: uppercase;
 }
 .banner {
@@ -79,14 +81,14 @@ section {
     justify-content: center;
 }
 section h2 {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
     letter-spacing: 0.08em;
     color: #77a466;
     text-transform: uppercase;  
 }
 section h3 {
-    font-size: 20px;
+    font-size: 1.25em;
     text-transform: uppercase;
     letter-spacing: 0.08em;
     /* padding: 20px 0 10px 0; */
@@ -99,8 +101,8 @@ section h3 {
     border-bottom: 1px solid #dedbdc;
 }
 .welcome p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25em;
+    line-height: 1.5em;
     letter-spacing: 0.02em;
 
 }
@@ -119,7 +121,7 @@ section h3 {
 }
 .reviews p, .contact p {
     padding: 18px 0;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 30px;
     letter-spacing: 0.02em;
 }
@@ -129,7 +131,7 @@ section h3 {
 .specials ul {
     list-style: none;
     margin-left: -40px;
-    font-size: 18px;
+    font-size: 1.125em;
     
 }
 .specials ul li {
@@ -145,7 +147,7 @@ footer {
 }
 
 footer h3 {
-    font-size: 16px;
+    font-size: 1em;
     text-transform: uppercase;
 } 
 
